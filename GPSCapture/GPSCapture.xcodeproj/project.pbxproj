@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE90CC9E1DEBFE030024CD25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90CC9D1DEBFE030024CD25 /* AppDelegate.swift */; };
+		EE90CCA01DEBFE030024CD25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90CC9F1DEBFE030024CD25 /* ViewController.swift */; };
+		EE90CCA31DEBFE030024CD25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE90CCA11DEBFE030024CD25 /* Main.storyboard */; };
+		EE90CCA61DEBFE030024CD25 /* GPSCapture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE90CCA41DEBFE030024CD25 /* GPSCapture.xcdatamodeld */; };
+		EE90CCA81DEBFE030024CD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE90CCA71DEBFE030024CD25 /* Assets.xcassets */; };
+		EE90CCAB1DEBFE030024CD25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE90CCA91DEBFE030024CD25 /* LaunchScreen.storyboard */; };
+		EE90CCB61DEBFE030024CD25 /* GPSCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90CCB51DEBFE030024CD25 /* GPSCaptureTests.swift */; };
+		EE90CCC11DEBFE030024CD25 /* GPSCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90CCC01DEBFE030024CD25 /* GPSCaptureUITests.swift */; };
+		EE90CCCF1DEC027B0024CD25 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90CCCE1DEC027B0024CD25 /* Location.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE90CCB21DEBFE030024CD25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE90CC921DEBFE020024CD25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE90CC991DEBFE020024CD25;
+			remoteInfo = GPSCapture;
+		};
+		EE90CCBD1DEBFE030024CD25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE90CC921DEBFE020024CD25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE90CC991DEBFE020024CD25;
+			remoteInfo = GPSCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE90CC9A1DEBFE030024CD25 /* GPSCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE90CC9D1DEBFE030024CD25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE90CC9F1DEBFE030024CD25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE90CCA21DEBFE030024CD25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE90CCA51DEBFE030024CD25 /* GPSCapture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPSCapture.xcdatamodel; sourceTree = "<group>"; };
+		EE90CCA71DEBFE030024CD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE90CCAA1DEBFE030024CD25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE90CCAC1DEBFE030024CD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE90CCB11DEBFE030024CD25 /* GPSCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE90CCB51DEBFE030024CD25 /* GPSCaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSCaptureTests.swift; sourceTree = "<group>"; };
+		EE90CCB71DEBFE030024CD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE90CCBC1DEBFE030024CD25 /* GPSCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE90CCC01DEBFE030024CD25 /* GPSCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSCaptureUITests.swift; sourceTree = "<group>"; };
+		EE90CCC21DEBFE030024CD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE90CCCE1DEC027B0024CD25 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE90CC971DEBFE020024CD25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE90CCAE1DEBFE030024CD25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE90CCB91DEBFE030024CD25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE90CC911DEBFE020024CD25 = {
+			isa = PBXGroup;
+			children = (
+				EE90CC9C1DEBFE030024CD25 /* GPSCapture */,
+				EE90CCB41DEBFE030024CD25 /* GPSCaptureTests */,
+				EE90CCBF1DEBFE030024CD25 /* GPSCaptureUITests */,
+				EE90CC9B1DEBFE030024CD25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE90CC9B1DEBFE030024CD25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE90CC9A1DEBFE030024CD25 /* GPSCapture.app */,
+				EE90CCB11DEBFE030024CD25 /* GPSCaptureTests.xctest */,
+				EE90CCBC1DEBFE030024CD25 /* GPSCaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE90CC9C1DEBFE030024CD25 /* GPSCapture */ = {
+			isa = PBXGroup;
+			children = (
+				EE90CC9D1DEBFE030024CD25 /* AppDelegate.swift */,
+				EE90CC9F1DEBFE030024CD25 /* ViewController.swift */,
+				EE90CCA11DEBFE030024CD25 /* Main.storyboard */,
+				EE90CCCE1DEC027B0024CD25 /* Location.swift */,
+				EE90CCA71DEBFE030024CD25 /* Assets.xcassets */,
+				EE90CCA91DEBFE030024CD25 /* LaunchScreen.storyboard */,
+				EE90CCAC1DEBFE030024CD25 /* Info.plist */,
+				EE90CCA41DEBFE030024CD25 /* GPSCapture.xcdatamodeld */,
+			);
+			path = GPSCapture;
+			sourceTree = "<group>";
+		};
+		EE90CCB41DEBFE030024CD25 /* GPSCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE90CCB51DEBFE030024CD25 /* GPSCaptureTests.swift */,
+				EE90CCB71DEBFE030024CD25 /* Info.plist */,
+			);
+			path = GPSCaptureTests;
+			sourceTree = "<group>";
+		};
+		EE90CCBF1DEBFE030024CD25 /* GPSCaptureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE90CCC01DEBFE030024CD25 /* GPSCaptureUITests.swift */,
+				EE90CCC21DEBFE030024CD25 /* Info.plist */,
+			);
+			path = GPSCaptureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE90CC991DEBFE020024CD25 /* GPSCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE90CCC51DEBFE030024CD25 /* Build configuration list for PBXNativeTarget "GPSCapture" */;
+			buildPhases = (
+				EE90CC961DEBFE020024CD25 /* Sources */,
+				EE90CC971DEBFE020024CD25 /* Frameworks */,
+				EE90CC981DEBFE020024CD25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSCapture;
+			productName = GPSCapture;
+			productReference = EE90CC9A1DEBFE030024CD25 /* GPSCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE90CCB01DEBFE030024CD25 /* GPSCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE90CCC81DEBFE030024CD25 /* Build configuration list for PBXNativeTarget "GPSCaptureTests" */;
+			buildPhases = (
+				EE90CCAD1DEBFE030024CD25 /* Sources */,
+				EE90CCAE1DEBFE030024CD25 /* Frameworks */,
+				EE90CCAF1DEBFE030024CD25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE90CCB31DEBFE030024CD25 /* PBXTargetDependency */,
+			);
+			name = GPSCaptureTests;
+			productName = GPSCaptureTests;
+			productReference = EE90CCB11DEBFE030024CD25 /* GPSCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE90CCBB1DEBFE030024CD25 /* GPSCaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE90CCCB1DEBFE030024CD25 /* Build configuration list for PBXNativeTarget "GPSCaptureUITests" */;
+			buildPhases = (
+				EE90CCB81DEBFE030024CD25 /* Sources */,
+				EE90CCB91DEBFE030024CD25 /* Frameworks */,
+				EE90CCBA1DEBFE030024CD25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE90CCBE1DEBFE030024CD25 /* PBXTargetDependency */,
+			);
+			name = GPSCaptureUITests;
+			productName = GPSCaptureUITests;
+			productReference = EE90CCBC1DEBFE030024CD25 /* GPSCaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE90CC921DEBFE020024CD25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = anothercookiecrumbles;
+				TargetAttributes = {
+					EE90CC991DEBFE020024CD25 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4TL4RGRZ9M;
+						ProvisioningStyle = Automatic;
+					};
+					EE90CCB01DEBFE030024CD25 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4TL4RGRZ9M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE90CC991DEBFE020024CD25;
+					};
+					EE90CCBB1DEBFE030024CD25 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4TL4RGRZ9M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE90CC991DEBFE020024CD25;
+					};
+				};
+			};
+			buildConfigurationList = EE90CC951DEBFE020024CD25 /* Build configuration list for PBXProject "GPSCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE90CC911DEBFE020024CD25;
+			productRefGroup = EE90CC9B1DEBFE030024CD25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE90CC991DEBFE020024CD25 /* GPSCapture */,
+				EE90CCB01DEBFE030024CD25 /* GPSCaptureTests */,
+				EE90CCBB1DEBFE030024CD25 /* GPSCaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE90CC981DEBFE020024CD25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE90CCAB1DEBFE030024CD25 /* LaunchScreen.storyboard in Resources */,
+				EE90CCA81DEBFE030024CD25 /* Assets.xcassets in Resources */,
+				EE90CCA31DEBFE030024CD25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE90CCAF1DEBFE030024CD25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE90CCBA1DEBFE030024CD25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE90CC961DEBFE020024CD25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE90CCA61DEBFE030024CD25 /* GPSCapture.xcdatamodeld in Sources */,
+				EE90CCA01DEBFE030024CD25 /* ViewController.swift in Sources */,
+				EE90CCCF1DEC027B0024CD25 /* Location.swift in Sources */,
+				EE90CC9E1DEBFE030024CD25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE90CCAD1DEBFE030024CD25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE90CCB61DEBFE030024CD25 /* GPSCaptureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE90CCB81DEBFE030024CD25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE90CCC11DEBFE030024CD25 /* GPSCaptureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE90CCB31DEBFE030024CD25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE90CC991DEBFE020024CD25 /* GPSCapture */;
+			targetProxy = EE90CCB21DEBFE030024CD25 /* PBXContainerItemProxy */;
+		};
+		EE90CCBE1DEBFE030024CD25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE90CC991DEBFE020024CD25 /* GPSCapture */;
+			targetProxy = EE90CCBD1DEBFE030024CD25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE90CCA11DEBFE030024CD25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE90CCA21DEBFE030024CD25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE90CCA91DEBFE030024CD25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE90CCAA1DEBFE030024CD25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE90CCC31DEBFE030024CD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE90CCC41DEBFE030024CD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE90CCC61DEBFE030024CD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4TL4RGRZ9M;
+				INFOPLIST_FILE = GPSCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anothercookiecrumbles.GPSCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE90CCC71DEBFE030024CD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4TL4RGRZ9M;
+				INFOPLIST_FILE = GPSCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anothercookiecrumbles.GPSCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE90CCC91DEBFE030024CD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4TL4RGRZ9M;
+				INFOPLIST_FILE = GPSCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anothercookiecrumbles.GPSCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSCapture.app/GPSCapture";
+			};
+			name = Debug;
+		};
+		EE90CCCA1DEBFE030024CD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4TL4RGRZ9M;
+				INFOPLIST_FILE = GPSCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anothercookiecrumbles.GPSCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSCapture.app/GPSCapture";
+			};
+			name = Release;
+		};
+		EE90CCCC1DEBFE030024CD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4TL4RGRZ9M;
+				INFOPLIST_FILE = GPSCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anothercookiecrumbles.GPSCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GPSCapture;
+			};
+			name = Debug;
+		};
+		EE90CCCD1DEBFE030024CD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4TL4RGRZ9M;
+				INFOPLIST_FILE = GPSCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anothercookiecrumbles.GPSCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GPSCapture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE90CC951DEBFE020024CD25 /* Build configuration list for PBXProject "GPSCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE90CCC31DEBFE030024CD25 /* Debug */,
+				EE90CCC41DEBFE030024CD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE90CCC51DEBFE030024CD25 /* Build configuration list for PBXNativeTarget "GPSCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE90CCC61DEBFE030024CD25 /* Debug */,
+				EE90CCC71DEBFE030024CD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE90CCC81DEBFE030024CD25 /* Build configuration list for PBXNativeTarget "GPSCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE90CCC91DEBFE030024CD25 /* Debug */,
+				EE90CCCA1DEBFE030024CD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE90CCCB1DEBFE030024CD25 /* Build configuration list for PBXNativeTarget "GPSCaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE90CCCC1DEBFE030024CD25 /* Debug */,
+				EE90CCCD1DEBFE030024CD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE90CCA41DEBFE030024CD25 /* GPSCapture.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE90CCA51DEBFE030024CD25 /* GPSCapture.xcdatamodel */,
+			);
+			currentVersion = EE90CCA51DEBFE030024CD25 /* GPSCapture.xcdatamodel */;
+			path = GPSCapture.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE90CC921DEBFE020024CD25 /* Project object */;
+}
